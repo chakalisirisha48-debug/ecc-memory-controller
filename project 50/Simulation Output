@@ -1,0 +1,16 @@
+
+
+```text
+Time=0  | Write=0 | Read=0 | Data In=00 | Data Out=00 | Error=0 | Valid=0
+
+Time=20 | Write=1 | Read=0 | Data In=A5 | Data Out=00 | Error=0 | Valid=0
+
+Time=40 | Write=0 | Read=1 | Data In=A5 | Data Out=A5 | Error=0 | Valid=1
+
+Time=50 | Write=0 | Read=0 | Data In=A5 | Data Out=A5 | Error=0 | Valid=0
+
+Single-bit error introduced in memory
+
+Time=70 | Write=0 | Read=1 | Data In=A5 | Data Out=A5 | Error=1 | Valid=1
+
+Time=80 | Write=0 | Read=0 | Data In=A5 | Data Out=A5 | Error=0 | Valid=0
